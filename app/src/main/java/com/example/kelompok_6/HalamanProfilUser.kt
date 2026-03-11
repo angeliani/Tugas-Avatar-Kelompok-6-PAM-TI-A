@@ -43,7 +43,6 @@ fun HalamanProfilUser(
                 ProfileItem("Last Name", userData.namaBelakang)
                 ProfileItem("Username", userData.namaPanggilan)
                 ProfileItem("Email", userData.email)
-                ProfileItem("Password", "********")
                 HorizontalDivider(modifier = Modifier.padding(vertical = 12.dp))
                 Text("Kontak", fontWeight = FontWeight.Bold, color = PinkPrimary)
                 Spacer(modifier = Modifier.height(8.dp))
